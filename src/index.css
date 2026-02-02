@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   --color-neon-blue: #00f3ff;
   --color-neon-purple: #bc13fe;
 
@@ -9,17 +9,19 @@
   --color-dark-lighter: #1a1a20;
 
   --font-sans: 'Inter', sans-serif;
+}
 
+@theme {
   --animate-glow: glow 2s ease-in-out infinite alternate;
   --animate-float: float 6s ease-in-out infinite;
 
   @keyframes glow {
     from {
-      box-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff;
+      box-shadow: 0 0 10px var(--color-neon-blue), 0 0 20px var(--color-neon-blue);
     }
 
     to {
-      box-shadow: 0 0 20px #bc13fe, 0 0 30px #bc13fe;
+      box-shadow: 0 0 20px var(--color-neon-purple), 0 0 30px var(--color-neon-purple);
     }
   }
 
