@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+@theme {
   --color-neon-blue: #00f3ff;
   --color-neon-purple: #bc13fe;
 
@@ -9,9 +9,7 @@
   --color-dark-lighter: #1a1a20;
 
   --font-sans: 'Inter', sans-serif;
-}
 
-@theme {
   --animate-glow: glow 2s ease-in-out infinite alternate;
   --animate-float: float 6s ease-in-out infinite;
 
