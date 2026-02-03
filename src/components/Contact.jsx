@@ -35,10 +35,10 @@ const Contact = () => {
                 </div>
 
                 <div className="flex justify-center gap-6">
-                    <a href="#" className="p-3 rounded-full bg-white/5 hover:bg-neon-blue/20 hover:text-neon-blue text-white transition-all interactive">
+                    <a href="https://www.linkedin.com/in/saikumar-b-a4419b380" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-neon-blue/20 hover:text-neon-blue text-white transition-all interactive">
                         <Linkedin size={24} />
                     </a>
-                    <a href="#" className="p-3 rounded-full bg-white/5 hover:bg-neon-purple/20 hover:text-neon-purple text-white transition-all interactive">
+                    <a href="https://github.com/saiboddu00" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-white/5 hover:bg-neon-purple/20 hover:text-neon-purple text-white transition-all interactive">
                         <Github size={24} />
                     </a>
                 </div>
